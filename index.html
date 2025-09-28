@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GetMC - Discover Maps</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #f5f5f5;
+    }
+
+    header {
+      background: linear-gradient(90deg, #2196f3, #4caf50);
+      padding: 25px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding: 30px;
+      max-width: 1300px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e1e1e;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.6);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.8);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: #4cafef;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 10px;
+      text-align: center;
+      background: #4caf50;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #43a047;
+    }
+
+    .btn.download {
+      background: #2196f3;
+    }
+
+    .btn.download:hover {
+      background: #1976d2;
+    }
+  </style>
+</head>
+<body>
+  <header>🌍 GetMC Map Discovery</header>
+
+  <div class="grid">
+    <div class="card">
+      <img src="https://play-lh.googleusercontent.com/rVpmH755N4YIYNuaNuhSRk844tXeCLRoy_9XNNWAIVe5vxV9QswAm2j2hxe1s6BY5g=w526-h296-rw" alt="Map Thumbnail">
+      <div class="card-content">
+        <div class="card-title">Parkour Maps!</div>
+        <div class="buttons">
+          <a href="https://dagurspelar.github.io/Parkour_Maps/" class="btn">▶ Play</a>
+          <a href="https://x.com/share?text=Check%20out%20these%20awesome%20Minecraft%20maps%20I%20just%20found%20on%20GetMC!%20%F0%9F%8E%AE%E2%9C%A8%0A%0Ahttps%3A%2F%2Fdagurspelar.github.io%2FMineTweet_HomePage%2F" class="btn download">📢 Post</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://blog.connectedcamps.com/wp-content/uploads/2016/03/FVeLtzS-750x450.jpg" alt="Map Thumbnail">
+      <div class="card-content">
+        <div class="card-title">Survival Maps!</div>
+        <div class="buttons">
+          <a href="https://dagurspelar.github.io/Survival_Maps/" class="btn">▶ Play</a>
+          <a href="https://x.com/share?text=Check%20out%20these%20awesome%20Minecraft%20maps%20I%20just%20found%20on%20GetMC!%20%F0%9F%8E%AE%E2%9C%A8%0A%0Ahttps%3A%2F%2Fdagurspelar.github.io%2FMineTweet_HomePage%2F" class="btn download">📢 Post</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://blog.connectedcamps.com/wp-content/uploads/2016/08/minecraft-adventure-map-artikelbild.png" alt="Map Thumbnail">
+      <div class="card-content">
+        <div class="card-title">Adventure Maps!</div>
+        <div class="buttons">
+          <a href="https://dagurspelar.github.io/Adventure_Maps/" class="btn">▶ Play</a>
+          <a href="https://x.com/share?text=Check%20out%20these%20awesome%20Minecraft%20maps%20I%20just%20found%20on%20GetMC!%20%F0%9F%8E%AE%E2%9C%A8%0A%0Ahttps%3A%2F%2Fdagurspelar.github.io%2FMineTweet_HomePage%2F" class="btn download">📢 Post</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/71DbMyCS7iL.jpg" alt="Map Thumbnail">
+      <div class="card-content">
+        <div class="card-title">Puzzle Maps!</div>
+        <div class="buttons">
+          <a href="https://dagurspelar.github.io/Puzzle_Maps/" class="btn">▶ Play</a>
+          <a href="https://x.com/share?text=Check%20out%20these%20awesome%20Minecraft%20maps%20I%20just%20found%20on%20GetMC!%20%F0%9F%8E%AE%E2%9C%A8%0A%0Ahttps%3A%2F%2Fdagurspelar.github.io%2FMineTweet_HomePage%2F" class="btn download">📢 Post</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMGF5nuFtbwQkk2L4pKaxV5XYG2uOb5FtUyw&s" alt="Map Thumbnail">
+      <div class="card-content">
+        <div class="card-title">Games!</div>
+        <div class="buttons">
+          <a href="https://dagurspelar.github.io/Games_Maps/" class="btn">▶ Play</a>
+          <a href="https://x.com/share?text=Check%20out%20these%20awesome%20Minecraft%20maps%20I%20just%20found%20on%20GetMC!%20%F0%9F%8E%AE%E2%9C%A8%0A%0Ahttps%3A%2F%2Fdagurspelar.github.io%2FMineTweet_HomePage%2F" class="btn download">📢 Post</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.ytimg.com/vi/OmLuK65Jkog/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB68iDnK9YxvplcNgwP3jhJI3QkFQ" alt="Map Thumbnail">
+      <div class="card-content">
+        <div class="card-title">Creative Builds!</div>
+        <div class="buttons">
+          <a href="https://dagurspelar.github.io/Creative_Maps/" class="btn">▶ Play</a>
+          <a href="https://x.com/share?text=Check%20out%20these%20awesome%20Minecraft%20maps%20I%20just%20found%20on%20GetMC!%20%F0%9F%8E%AE%E2%9C%A8%0A%0Ahttps%3A%2F%2Fdagurspelar.github.io%2FMineTweet_HomePage%2F" class="btn download">📢 Post</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://media.forgecdn.net/attachments/description/952976/description_82bd1d0c-41fb-48c2-89db-1009ec54e72a.png" alt="Map Thumbnail">
+      <div class="card-content">
+        <div class="card-title">Horror Maps!</div>
+        <div class="buttons">
+          <a href="https://dagurspelar.github.io/Horror_Maps/" class="btn">▶ Play</a>
+          <a href="https://x.com/share?text=Check%20out%20these%20awesome%20Minecraft%20maps%20I%20just%20found%20on%20GetMC!%20%F0%9F%8E%AE%E2%9C%A8%0A%0Ahttps%3A%2F%2Fdagurspelar.github.io%2FMineTweet_HomePage%2F" class="btn download">📢 Post</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://store-images.s-microsoft.com/image/apps.27324.13510798887411471.ef8a86a2-0c72-4a81-a3f0-3aa5515cca32.fbb81079-474d-4c89-84eb-f57f71b89f74?h=1280" alt="Map Thumbnail">
+      <div class="card-content">
+        <div class="card-title">Educational Maps!</div>
+        <div class="buttons">
+          <a href="https://dagurspelar.github.io/Educational_Maps/" class="btn">▶ Play</a>
+          <a href="https://x.com/share?text=Check%20out%20these%20awesome%20Minecraft%20maps%20I%20just%20found%20on%20GetMC!%20%F0%9F%8E%AE%E2%9C%A8%0A%0Ahttps%3A%2F%2Fdagurspelar.github.io%2FMineTweet_HomePage%2F" class="btn download">📢 Post</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
